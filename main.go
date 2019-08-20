@@ -1,9 +1,9 @@
 package main
 
 import (
-	"./ArrayAndSlice"
+	"./mapKV"
 )
 
 func main() {
-	ArrayAndSlice.ArrayAndSliceMain()
+	mapKV.MapKVMain()
 }
