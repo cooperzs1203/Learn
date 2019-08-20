@@ -1,9 +1,7 @@
 package main
 
-import (
-	"./constant"
-)
+import "./variable"
 
 func main() {
-	constant.ConstantMain()
+	variable.VariableMain()
 }
