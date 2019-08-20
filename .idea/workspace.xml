@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aded3f60-fa3e-491f-80dd-551403c7fb26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mapKV/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapKV/map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operator/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operator/operatorMain.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
@@ -19,16 +19,16 @@
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mapKV/map.go">
+        <entry file="file://$PROJECT_DIR$/operator/operatorMain.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="28">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -67,8 +67,13 @@
         <option value="$PROJECT_DIR$/ArrayAndSlice/slice.go" />
         <option value="$PROJECT_DIR$/map/main.go" />
         <option value="$PROJECT_DIR$/mapKV/main.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/mapKV/map.go" />
+        <option value="$PROJECT_DIR$/oprator/main.go" />
+        <option value="$PROJECT_DIR$/oprator/oprator.go" />
+        <option value="$PROJECT_DIR$/operator/oprator.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/operator/main.go" />
+        <option value="$PROJECT_DIR$/operator/operatorMain.go" />
       </list>
     </option>
   </component>
@@ -95,7 +100,7 @@
             <path>
               <item name="Learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn" type="462c0819:PsiDirectoryNode" />
-              <item name="mapKV" type="462c0819:PsiDirectoryNode" />
+              <item name="operator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -248,13 +253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mapKV/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -266,6 +264,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/operator/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/operator/operatorMain.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>

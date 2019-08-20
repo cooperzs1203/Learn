@@ -1,9 +1,7 @@
 package main
 
-import (
-	"./mapKV"
-)
+import "./operator"
 
 func main() {
-	mapKV.MapKVMain()
+	operator.OperatorMain()
 }
