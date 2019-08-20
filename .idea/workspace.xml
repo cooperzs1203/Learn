@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aded3f60-fa3e-491f-80dd-551403c7fb26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/operator/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operator/operatorMain.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conditionStatement/conditionStateMent.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conditionStatement/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
@@ -19,16 +19,19 @@
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/operator/operatorMain.go">
+        <entry file="file://$PROJECT_DIR$/conditionStatement/conditionStateMent.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="188">
+              <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+              <folding>
+                <element signature="e#28#53#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,13 +74,15 @@
         <option value="$PROJECT_DIR$/oprator/main.go" />
         <option value="$PROJECT_DIR$/oprator/oprator.go" />
         <option value="$PROJECT_DIR$/operator/oprator.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/operator/main.go" />
         <option value="$PROJECT_DIR$/operator/operatorMain.go" />
+        <option value="$PROJECT_DIR$/conditionStatement/main.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/conditionStatement/conditionStateMent.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="2343" />
     <option name="width" value="1502" />
     <option name="height" value="1047" />
@@ -100,7 +105,7 @@
             <path>
               <item name="Learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
+              <item name="conditionStatement" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,17 +279,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/conditionStatement/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/operator/operatorMain.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="388">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conditionStatement/conditionStateMent.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <folding>
+            <element signature="e#28#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,7 +1,9 @@
 package main
 
-import "./operator"
+import (
+	"./conditionStatement"
+)
 
 func main() {
-	operator.OperatorMain()
+	conditionStatement.ConditionStateMent()
 }
