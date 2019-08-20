@@ -1,9 +1,7 @@
 package main
 
-import (
-	"./conditionStatement"
-)
+import "./loopStateMent"
 
 func main() {
-	conditionStatement.ConditionStateMent()
+	loopStateMent.LoopStateMent()
 }
