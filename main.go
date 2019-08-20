@@ -1,7 +1,9 @@
 package main
 
-import "./variable"
+import (
+	"./ArrayAndSlice"
+)
 
 func main() {
-	variable.VariableMain()
+	ArrayAndSlice.ArrayAndSliceMain()
 }
