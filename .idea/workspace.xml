@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aded3f60-fa3e-491f-80dd-551403c7fb26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interfacer/interfacer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfacer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/structure/structure.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objectOriented/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objectOriented/object/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objectOriented/objectOriented.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
@@ -21,21 +20,18 @@
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="e#14#50#0" expanded="true" />
-              </folding>
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interfacer/interfacer.go">
+        <entry file="file://$PROJECT_DIR$/objectOriented/objectOriented.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="187" column="18" lean-forward="true" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
+            <state relative-caret-position="394">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
               <folding>
-                <element signature="e#20#44#0" expanded="true" />
+                <element signature="e#24#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,8 +87,11 @@
         <option value="$PROJECT_DIR$/structure/structure.go" />
         <option value="$PROJECT_DIR$/interface/main.go" />
         <option value="$PROJECT_DIR$/interfacer/main.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/interfacer/interfacer.go" />
+        <option value="$PROJECT_DIR$/objectOriented/main.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/objectOriented/object/main.go" />
+        <option value="$PROJECT_DIR$/objectOriented/objectOriented.go" />
       </list>
     </option>
   </component>
@@ -119,7 +118,13 @@
             <path>
               <item name="Learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="Learn" type="462c0819:PsiDirectoryNode" />
-              <item name="interfacer" type="462c0819:PsiDirectoryNode" />
+              <item name="objectOriented" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Learn" type="462c0819:PsiDirectoryNode" />
+              <item name="objectOriented" type="462c0819:PsiDirectoryNode" />
+              <item name="object" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -379,22 +384,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
+    <entry file="file://$PROJECT_DIR$/interfacer/interfacer.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="314">
+          <caret line="187" column="18" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
           <folding>
-            <element signature="e#14#50#0" expanded="true" />
+            <element signature="e#20#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interfacer/interfacer.go">
+    <entry file="file://$PROJECT_DIR$/objectOriented/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="187" column="18" lean-forward="true" selection-start-line="187" selection-start-column="18" selection-end-line="187" selection-end-column="18" />
+        <state relative-caret-position="60">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objectOriented/object/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objectOriented/objectOriented.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
-            <element signature="e#20#44#0" expanded="true" />
+            <element signature="e#24#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
