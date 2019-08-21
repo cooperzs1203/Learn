@@ -1,9 +1,7 @@
 package main
 
-import (
-	"./objectOriented"
-)
+import "./reflection"
 
 func main() {
-	objectOriented.ObjectOrientedMani()
+	reflection.ReflectionMain()
 }
