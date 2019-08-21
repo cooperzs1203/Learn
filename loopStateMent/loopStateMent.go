@@ -5,7 +5,7 @@ import "fmt"
 func loopStateMent() {
 	forStateMent()
 	loopControl()
-	foreverLoop()
+	//foreverLoop()
 }
 
 func forStateMent() {

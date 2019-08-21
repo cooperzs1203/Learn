@@ -1,7 +1,9 @@
 package main
 
-import "./loopStateMent"
+import (
+	"./function"
+)
 
 func main() {
-	loopStateMent.LoopStateMent()
+	function.FunctionMain()
 }
