@@ -1,9 +1,9 @@
 package main
 
 import (
-	"./function"
+	"./interfacer"
 )
 
 func main() {
-	function.FunctionMain()
+	interfacer.InterfacerMain()
 }
