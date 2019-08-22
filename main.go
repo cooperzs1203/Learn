@@ -1,7 +1,9 @@
 package main
 
-import "./reflection"
+import (
+	"./lock"
+)
 
 func main() {
-	reflection.ReflectionMain()
+	lock.LockMain()
 }
