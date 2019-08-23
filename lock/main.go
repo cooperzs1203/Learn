@@ -1,5 +1,5 @@
 package lock
 
 func LockMain() {
-	condMain()
+	poolMain()
 }

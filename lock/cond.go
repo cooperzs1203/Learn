@@ -1,7 +1,6 @@
 package lock
 
 import (
-	"fmt"
 	"log"
 	"sync"
 	"time"
@@ -22,29 +21,25 @@ Broadcast: 发送通知(广播）
 
 func condMain() {
 	cond := sync.NewCond(&sync.RWMutex{})
-	buf := make([]byte , 0)
+	condition := false
 
-	for i := 0; i < 5; i++ {
-		go func(a int) {
-			time.Sleep(time.Second * time.Duration(2))
-			log.Println(a , " got the lock")
-			cond.L.Lock()
-			buf = append(buf , []byte(fmt.Sprintf("%d" , a))...)
-			cond.Broadcast()
-			cond.L.Unlock()
-		}(i)
-	}
+	go func() {
+		cond.L.Lock()
 
-	for i := 0; i < 5; i++ {
-		go func(a int) {
-			cond.L.Lock()
-			log.Println("R -" , a , " ready")
-			data := string(buf)
-			buf = make([]byte , 0)
-			log.Println("R -" , a ," got " , data)
+		for condition == false {
+			log.Println("loop")
 			cond.Wait()
-		}(i)
-	}
+			log.Println("goroutine")
+		}
+
+		cond.L.Unlock()
+	}()
+
+	time.Sleep(time.Second * time.Duration(3))
+	cond.L.Lock()
+	condition = true
+	cond.Signal()
+	cond.L.Unlock()
 
 	for {}
 
